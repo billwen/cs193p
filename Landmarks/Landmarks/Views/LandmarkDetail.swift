@@ -9,7 +9,14 @@ import SwiftUI
 
 struct LandmarkDetail: View {
     
+    @EnvironmentObject
+    var modelData: ModelData
+    
     var landmark: Landmark
+    
+    var landmarkIndex: Int {
+        modelData.landmarks.firstIndex(where: {$0.id == landmark.id})!
+    }
     
     var body: some View {
         ScrollView {
@@ -22,8 +29,13 @@ struct LandmarkDetail: View {
                 .padding(.bottom, -130)
             
             VStack(alignment: .leading) {
-                Text("Turtle Rock")
-                    .font(.title)
+                
+                HStack {
+                    Text("Turtle Rock")
+                        .font(.title)
+                    FavoriteButton(isSet: $modelData.landmarks[landmarkIndex].isFavorite)
+                }
+
                 
                 HStack {
                     Text("Joshua Tree National Park")
@@ -48,7 +60,10 @@ struct LandmarkDetail: View {
 }
 
 struct LandmarkDetail_Previews: PreviewProvider {
+    static let modelData = ModelData()
+    
     static var previews: some View {
-        LandmarkDetail(landmark: ModelData().landmarks[0])
+        LandmarkDetail(landmark: modelData.landmarks[0])
+            .environmentObject(modelData)
     }
 }
