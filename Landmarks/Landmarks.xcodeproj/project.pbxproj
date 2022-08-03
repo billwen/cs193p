@@ -79,6 +79,7 @@
 		838D36A5289A5A4E001F1E9C /* Hike.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8379FFDA2893F1CA00A763E0 /* Hike.swift */; };
 		838D36A6289A5A4E001F1E9C /* Landmark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83B25B2328901E7200F34163 /* Landmark.swift */; };
 		838D36A7289A5A4E001F1E9C /* LandmarkRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 834BB41E2890ACEC002D6CE7 /* LandmarkRow.swift */; };
+		838D36A9289A5B2A001F1E9C /* LandmarkDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 838D36A8289A5B2A001F1E9C /* LandmarkDetail.swift */; };
 		83A8CCE62894CB26000F7FE5 /* CategoryHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83A8CCE52894CB26000F7FE5 /* CategoryHome.swift */; };
 		83A8CCE72894CB26000F7FE5 /* CategoryHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83A8CCE52894CB26000F7FE5 /* CategoryHome.swift */; };
 		83A8CCE82894CB26000F7FE5 /* CategoryHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83A8CCE52894CB26000F7FE5 /* CategoryHome.swift */; };
@@ -239,6 +240,7 @@
 		838D3684289A58C5001F1E9C /* WatchLandmarksUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WatchLandmarksUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		838D3688289A58C5001F1E9C /* WatchLandmarksUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchLandmarksUITests.swift; sourceTree = "<group>"; };
 		838D368A289A58C5001F1E9C /* WatchLandmarksUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchLandmarksUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		838D36A8289A5B2A001F1E9C /* LandmarkDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkDetail.swift; sourceTree = "<group>"; };
 		83A8CCE52894CB26000F7FE5 /* CategoryHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryHome.swift; sourceTree = "<group>"; };
 		83A8CCE928954244000F7FE5 /* CategoryRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryRow.swift; sourceTree = "<group>"; };
 		83A8CCED28954507000F7FE5 /* CategoryItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryItem.swift; sourceTree = "<group>"; };
@@ -365,6 +367,7 @@
 				838D3674289A58C5001F1E9C /* Info.plist */,
 				838D3675289A58C5001F1E9C /* PushNotificationPayload.apns */,
 				838D3671289A58C5001F1E9C /* Preview Content */,
+				838D36A8289A5B2A001F1E9C /* LandmarkDetail.swift */,
 			);
 			path = "WatchLandmarks WatchKit Extension";
 			sourceTree = "<group>";
@@ -785,6 +788,7 @@
 				838D366E289A58C4001F1E9C /* ComplicationController.swift in Sources */,
 				838D36A2289A5A4E001F1E9C /* LandmarksApp.swift in Sources */,
 				838D36A5289A5A4E001F1E9C /* Hike.swift in Sources */,
+				838D36A9289A5B2A001F1E9C /* LandmarkDetail.swift in Sources */,
 				838D36A1289A5A4E001F1E9C /* LandmarkList.swift in Sources */,
 				838D366C289A58C4001F1E9C /* NotificationView.swift in Sources */,
 				838D369E289A5A4E001F1E9C /* CircleImage.swift in Sources */,
@@ -992,7 +996,7 @@
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 7.0;
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
 			};
 			name = Debug;
 		};
@@ -1024,7 +1028,7 @@
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 7.0;
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
 			};
 			name = Release;
 		};
