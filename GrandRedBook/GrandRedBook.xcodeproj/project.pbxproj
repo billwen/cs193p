@@ -1,0 +1,766 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		22D08AA87A7F3CBCD45EB904 /* Pods_GrandRedBook_GrandRedBookUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C929C17D3BC96126E14A4028 /* Pods_GrandRedBook_GrandRedBookUITests.framework */; };
+		83AA5C4D289CB22100012076 /* GrandRedBookApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83AA5C4C289CB22100012076 /* GrandRedBookApp.swift */; };
+		83AA5C4F289CB22100012076 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83AA5C4E289CB22100012076 /* ContentView.swift */; };
+		83AA5C51289CB22200012076 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83AA5C50289CB22200012076 /* Assets.xcassets */; };
+		83AA5C54289CB22300012076 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83AA5C53289CB22300012076 /* Preview Assets.xcassets */; };
+		83AA5C56289CB22300012076 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83AA5C55289CB22300012076 /* Persistence.swift */; };
+		83AA5C59289CB22300012076 /* GrandRedBook.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 83AA5C57289CB22300012076 /* GrandRedBook.xcdatamodeld */; };
+		83AA5C63289CB22300012076 /* GrandRedBookTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83AA5C62289CB22300012076 /* GrandRedBookTests.swift */; };
+		83AA5C6D289CB22300012076 /* GrandRedBookUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83AA5C6C289CB22300012076 /* GrandRedBookUITests.swift */; };
+		83AA5C6F289CB22300012076 /* GrandRedBookUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83AA5C6E289CB22300012076 /* GrandRedBookUITestsLaunchTests.swift */; };
+		A936762EF08768AF8DBA2A19 /* Pods_GrandRedBookTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCE7DDD79875D3342FF26F8C /* Pods_GrandRedBookTests.framework */; };
+		AE6C44E8A3FB1F154DE3E4A5 /* Pods_GrandRedBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1F339A2398DA1DB116101C2 /* Pods_GrandRedBook.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		83AA5C5F289CB22300012076 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83AA5C41289CB22100012076 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 83AA5C48289CB22100012076;
+			remoteInfo = GrandRedBook;
+		};
+		83AA5C69289CB22300012076 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83AA5C41289CB22100012076 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 83AA5C48289CB22100012076;
+			remoteInfo = GrandRedBook;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		282E3B7C10FCBA72F9841D78 /* Pods-GrandRedBook-GrandRedBookUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GrandRedBook-GrandRedBookUITests.debug.xcconfig"; path = "Target Support Files/Pods-GrandRedBook-GrandRedBookUITests/Pods-GrandRedBook-GrandRedBookUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		83AA5C49289CB22100012076 /* GrandRedBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GrandRedBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		83AA5C4C289CB22100012076 /* GrandRedBookApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrandRedBookApp.swift; sourceTree = "<group>"; };
+		83AA5C4E289CB22100012076 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		83AA5C50289CB22200012076 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		83AA5C53289CB22300012076 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		83AA5C55289CB22300012076 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		83AA5C58289CB22300012076 /* GrandRedBook.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GrandRedBook.xcdatamodel; sourceTree = "<group>"; };
+		83AA5C5E289CB22300012076 /* GrandRedBookTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GrandRedBookTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		83AA5C62289CB22300012076 /* GrandRedBookTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrandRedBookTests.swift; sourceTree = "<group>"; };
+		83AA5C68289CB22300012076 /* GrandRedBookUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GrandRedBookUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		83AA5C6C289CB22300012076 /* GrandRedBookUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrandRedBookUITests.swift; sourceTree = "<group>"; };
+		83AA5C6E289CB22300012076 /* GrandRedBookUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrandRedBookUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		89847740A87A67945A62922C /* Pods-GrandRedBookTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GrandRedBookTests.debug.xcconfig"; path = "Target Support Files/Pods-GrandRedBookTests/Pods-GrandRedBookTests.debug.xcconfig"; sourceTree = "<group>"; };
+		8B7335EE906D1F02B3842E38 /* Pods-GrandRedBookTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GrandRedBookTests.release.xcconfig"; path = "Target Support Files/Pods-GrandRedBookTests/Pods-GrandRedBookTests.release.xcconfig"; sourceTree = "<group>"; };
+		AA6E87D1DD8918082A9BAC05 /* Pods-GrandRedBook.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GrandRedBook.release.xcconfig"; path = "Target Support Files/Pods-GrandRedBook/Pods-GrandRedBook.release.xcconfig"; sourceTree = "<group>"; };
+		B8E32553A85C5EC9FD8E2466 /* Pods-GrandRedBook-GrandRedBookUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GrandRedBook-GrandRedBookUITests.release.xcconfig"; path = "Target Support Files/Pods-GrandRedBook-GrandRedBookUITests/Pods-GrandRedBook-GrandRedBookUITests.release.xcconfig"; sourceTree = "<group>"; };
+		C929C17D3BC96126E14A4028 /* Pods_GrandRedBook_GrandRedBookUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GrandRedBook_GrandRedBookUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCE7DDD79875D3342FF26F8C /* Pods_GrandRedBookTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GrandRedBookTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF055B345E53DDB8236B6357 /* Pods-GrandRedBook.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GrandRedBook.debug.xcconfig"; path = "Target Support Files/Pods-GrandRedBook/Pods-GrandRedBook.debug.xcconfig"; sourceTree = "<group>"; };
+		F1F339A2398DA1DB116101C2 /* Pods_GrandRedBook.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GrandRedBook.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		83AA5C46289CB22100012076 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE6C44E8A3FB1F154DE3E4A5 /* Pods_GrandRedBook.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83AA5C5B289CB22300012076 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A936762EF08768AF8DBA2A19 /* Pods_GrandRedBookTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83AA5C65289CB22300012076 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22D08AA87A7F3CBCD45EB904 /* Pods_GrandRedBook_GrandRedBookUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0F2713E06AF1BE3BE8CF9332 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EF055B345E53DDB8236B6357 /* Pods-GrandRedBook.debug.xcconfig */,
+				AA6E87D1DD8918082A9BAC05 /* Pods-GrandRedBook.release.xcconfig */,
+				282E3B7C10FCBA72F9841D78 /* Pods-GrandRedBook-GrandRedBookUITests.debug.xcconfig */,
+				B8E32553A85C5EC9FD8E2466 /* Pods-GrandRedBook-GrandRedBookUITests.release.xcconfig */,
+				89847740A87A67945A62922C /* Pods-GrandRedBookTests.debug.xcconfig */,
+				8B7335EE906D1F02B3842E38 /* Pods-GrandRedBookTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		2D45D24BBE1E42B0EF9902EE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F1F339A2398DA1DB116101C2 /* Pods_GrandRedBook.framework */,
+				C929C17D3BC96126E14A4028 /* Pods_GrandRedBook_GrandRedBookUITests.framework */,
+				DCE7DDD79875D3342FF26F8C /* Pods_GrandRedBookTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		83AA5C40289CB22100012076 = {
+			isa = PBXGroup;
+			children = (
+				83AA5C4B289CB22100012076 /* GrandRedBook */,
+				83AA5C61289CB22300012076 /* GrandRedBookTests */,
+				83AA5C6B289CB22300012076 /* GrandRedBookUITests */,
+				83AA5C4A289CB22100012076 /* Products */,
+				0F2713E06AF1BE3BE8CF9332 /* Pods */,
+				2D45D24BBE1E42B0EF9902EE /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		83AA5C4A289CB22100012076 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				83AA5C49289CB22100012076 /* GrandRedBook.app */,
+				83AA5C5E289CB22300012076 /* GrandRedBookTests.xctest */,
+				83AA5C68289CB22300012076 /* GrandRedBookUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		83AA5C4B289CB22100012076 /* GrandRedBook */ = {
+			isa = PBXGroup;
+			children = (
+				83AA5C4C289CB22100012076 /* GrandRedBookApp.swift */,
+				83AA5C4E289CB22100012076 /* ContentView.swift */,
+				83AA5C50289CB22200012076 /* Assets.xcassets */,
+				83AA5C55289CB22300012076 /* Persistence.swift */,
+				83AA5C57289CB22300012076 /* GrandRedBook.xcdatamodeld */,
+				83AA5C52289CB22300012076 /* Preview Content */,
+			);
+			path = GrandRedBook;
+			sourceTree = "<group>";
+		};
+		83AA5C52289CB22300012076 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				83AA5C53289CB22300012076 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		83AA5C61289CB22300012076 /* GrandRedBookTests */ = {
+			isa = PBXGroup;
+			children = (
+				83AA5C62289CB22300012076 /* GrandRedBookTests.swift */,
+			);
+			path = GrandRedBookTests;
+			sourceTree = "<group>";
+		};
+		83AA5C6B289CB22300012076 /* GrandRedBookUITests */ = {
+			isa = PBXGroup;
+			children = (
+				83AA5C6C289CB22300012076 /* GrandRedBookUITests.swift */,
+				83AA5C6E289CB22300012076 /* GrandRedBookUITestsLaunchTests.swift */,
+			);
+			path = GrandRedBookUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		83AA5C48289CB22100012076 /* GrandRedBook */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 83AA5C72289CB22300012076 /* Build configuration list for PBXNativeTarget "GrandRedBook" */;
+			buildPhases = (
+				510510C35AE08A8690119FC5 /* [CP] Check Pods Manifest.lock */,
+				83AA5C45289CB22100012076 /* Sources */,
+				83AA5C46289CB22100012076 /* Frameworks */,
+				83AA5C47289CB22100012076 /* Resources */,
+				F6AC22C0397D9D3C8C43E5E9 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GrandRedBook;
+			productName = GrandRedBook;
+			productReference = 83AA5C49289CB22100012076 /* GrandRedBook.app */;
+			productType = "com.apple.product-type.application";
+		};
+		83AA5C5D289CB22300012076 /* GrandRedBookTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 83AA5C75289CB22300012076 /* Build configuration list for PBXNativeTarget "GrandRedBookTests" */;
+			buildPhases = (
+				C32D01EE68609351E96687CF /* [CP] Check Pods Manifest.lock */,
+				83AA5C5A289CB22300012076 /* Sources */,
+				83AA5C5B289CB22300012076 /* Frameworks */,
+				83AA5C5C289CB22300012076 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				83AA5C60289CB22300012076 /* PBXTargetDependency */,
+			);
+			name = GrandRedBookTests;
+			productName = GrandRedBookTests;
+			productReference = 83AA5C5E289CB22300012076 /* GrandRedBookTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		83AA5C67289CB22300012076 /* GrandRedBookUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 83AA5C78289CB22300012076 /* Build configuration list for PBXNativeTarget "GrandRedBookUITests" */;
+			buildPhases = (
+				B555C4DE996888FE919332AB /* [CP] Check Pods Manifest.lock */,
+				83AA5C64289CB22300012076 /* Sources */,
+				83AA5C65289CB22300012076 /* Frameworks */,
+				83AA5C66289CB22300012076 /* Resources */,
+				0729E9AEE19C666D43FBAFF3 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				83AA5C6A289CB22300012076 /* PBXTargetDependency */,
+			);
+			name = GrandRedBookUITests;
+			productName = GrandRedBookUITests;
+			productReference = 83AA5C68289CB22300012076 /* GrandRedBookUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		83AA5C41289CB22100012076 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					83AA5C48289CB22100012076 = {
+						CreatedOnToolsVersion = 13.4;
+					};
+					83AA5C5D289CB22300012076 = {
+						CreatedOnToolsVersion = 13.4;
+						TestTargetID = 83AA5C48289CB22100012076;
+					};
+					83AA5C67289CB22300012076 = {
+						CreatedOnToolsVersion = 13.4;
+						TestTargetID = 83AA5C48289CB22100012076;
+					};
+				};
+			};
+			buildConfigurationList = 83AA5C44289CB22100012076 /* Build configuration list for PBXProject "GrandRedBook" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 83AA5C40289CB22100012076;
+			productRefGroup = 83AA5C4A289CB22100012076 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				83AA5C48289CB22100012076 /* GrandRedBook */,
+				83AA5C5D289CB22300012076 /* GrandRedBookTests */,
+				83AA5C67289CB22300012076 /* GrandRedBookUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		83AA5C47289CB22100012076 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83AA5C54289CB22300012076 /* Preview Assets.xcassets in Resources */,
+				83AA5C51289CB22200012076 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83AA5C5C289CB22300012076 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83AA5C66289CB22300012076 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0729E9AEE19C666D43FBAFF3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GrandRedBook-GrandRedBookUITests/Pods-GrandRedBook-GrandRedBookUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GrandRedBook-GrandRedBookUITests/Pods-GrandRedBook-GrandRedBookUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GrandRedBook-GrandRedBookUITests/Pods-GrandRedBook-GrandRedBookUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		510510C35AE08A8690119FC5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GrandRedBook-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B555C4DE996888FE919332AB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GrandRedBook-GrandRedBookUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C32D01EE68609351E96687CF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GrandRedBookTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F6AC22C0397D9D3C8C43E5E9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GrandRedBook/Pods-GrandRedBook-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GrandRedBook/Pods-GrandRedBook-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GrandRedBook/Pods-GrandRedBook-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		83AA5C45289CB22100012076 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83AA5C56289CB22300012076 /* Persistence.swift in Sources */,
+				83AA5C4F289CB22100012076 /* ContentView.swift in Sources */,
+				83AA5C4D289CB22100012076 /* GrandRedBookApp.swift in Sources */,
+				83AA5C59289CB22300012076 /* GrandRedBook.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83AA5C5A289CB22300012076 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83AA5C63289CB22300012076 /* GrandRedBookTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83AA5C64289CB22300012076 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83AA5C6F289CB22300012076 /* GrandRedBookUITestsLaunchTests.swift in Sources */,
+				83AA5C6D289CB22300012076 /* GrandRedBookUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		83AA5C60289CB22300012076 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 83AA5C48289CB22100012076 /* GrandRedBook */;
+			targetProxy = 83AA5C5F289CB22300012076 /* PBXContainerItemProxy */;
+		};
+		83AA5C6A289CB22300012076 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 83AA5C48289CB22100012076 /* GrandRedBook */;
+			targetProxy = 83AA5C69289CB22300012076 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		83AA5C70289CB22300012076 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		83AA5C71289CB22300012076 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		83AA5C73289CB22300012076 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF055B345E53DDB8236B6357 /* Pods-GrandRedBook.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"GrandRedBook/Preview Content\"";
+				DEVELOPMENT_TEAM = PA9C8295TV;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.asawing.gang.fake.GrandRedBook;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		83AA5C74289CB22300012076 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AA6E87D1DD8918082A9BAC05 /* Pods-GrandRedBook.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"GrandRedBook/Preview Content\"";
+				DEVELOPMENT_TEAM = PA9C8295TV;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.asawing.gang.fake.GrandRedBook;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		83AA5C76289CB22300012076 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 89847740A87A67945A62922C /* Pods-GrandRedBookTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PA9C8295TV;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.asawing.gang.fake.GrandRedBookTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GrandRedBook.app/GrandRedBook";
+			};
+			name = Debug;
+		};
+		83AA5C77289CB22300012076 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B7335EE906D1F02B3842E38 /* Pods-GrandRedBookTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PA9C8295TV;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.asawing.gang.fake.GrandRedBookTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GrandRedBook.app/GrandRedBook";
+			};
+			name = Release;
+		};
+		83AA5C79289CB22300012076 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 282E3B7C10FCBA72F9841D78 /* Pods-GrandRedBook-GrandRedBookUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PA9C8295TV;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.asawing.gang.fake.GrandRedBookUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GrandRedBook;
+			};
+			name = Debug;
+		};
+		83AA5C7A289CB22300012076 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B8E32553A85C5EC9FD8E2466 /* Pods-GrandRedBook-GrandRedBookUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PA9C8295TV;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.asawing.gang.fake.GrandRedBookUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GrandRedBook;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		83AA5C44289CB22100012076 /* Build configuration list for PBXProject "GrandRedBook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83AA5C70289CB22300012076 /* Debug */,
+				83AA5C71289CB22300012076 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83AA5C72289CB22300012076 /* Build configuration list for PBXNativeTarget "GrandRedBook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83AA5C73289CB22300012076 /* Debug */,
+				83AA5C74289CB22300012076 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83AA5C75289CB22300012076 /* Build configuration list for PBXNativeTarget "GrandRedBookTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83AA5C76289CB22300012076 /* Debug */,
+				83AA5C77289CB22300012076 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83AA5C78289CB22300012076 /* Build configuration list for PBXNativeTarget "GrandRedBookUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83AA5C79289CB22300012076 /* Debug */,
+				83AA5C7A289CB22300012076 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		83AA5C57289CB22300012076 /* GrandRedBook.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				83AA5C58289CB22300012076 /* GrandRedBook.xcdatamodel */,
+			);
+			currentVersion = 83AA5C58289CB22300012076 /* GrandRedBook.xcdatamodel */;
+			path = GrandRedBook.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 83AA5C41289CB22100012076 /* Project object */;
+}
